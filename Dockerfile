@@ -18,7 +18,7 @@ RUN npm run build
 
 # Install a lightweight static file server
 RUN npm install -g serve
-RUN apt-get update && apt-get install -y sudo
+
 
 # Expose the port the app will run on
 EXPOSE 3000
